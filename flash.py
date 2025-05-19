@@ -164,7 +164,7 @@ def sop1d_Flash(MasterPath, field='tele', resolution=200, width_x=150e-4, x_cent
 
     # Optional: convert temperature to eV
     if field == 'tele':
-        density_matrix2d /= 11604,5250061657
+        density_matrix2d /= 11604.5250061657
         units = 'eV'
     else:
         units = units
